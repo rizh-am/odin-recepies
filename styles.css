@@ -1,0 +1,33 @@
+* {
+  background-color: beige;
+  font-family: Helvetica, Calibri, sans-serif;
+  align-content: center;
+  text-align: center;
+}
+
+.list li,
+.list ol {
+  align-items: left;
+  text-align: left;
+}
+
+#button {
+  border: none;
+  color: blue;
+  background-color: hsl(60, 56%, 50%);
+  border-radius: 15%;
+  align-items: right;
+  align-content: right;
+}
+
+button:hover {
+  color: red;
+}
+
+button:active {
+  color: white;
+}
+
+img.images {
+  padding: 2%;
+}
