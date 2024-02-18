@@ -12,9 +12,9 @@
 }
 
 #button {
-  border: none;
-  color: blue;
-  background-color: hsl(60, 56%, 50%);
+  border-color: green;
+  color: green;
+  background-color: rgb(255, 255, 255);
   border-radius: 15%;
   align-items: right;
   align-content: right;
@@ -30,4 +30,5 @@ button:active {
 
 img.images {
   padding: 2%;
+  height: 350px;
 }
