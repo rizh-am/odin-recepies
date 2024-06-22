@@ -6,18 +6,21 @@
 }
 
 .list li,
-.list ol {
+.list ol,
+.list ul {
   align-items: left;
   text-align: left;
 }
 
+p {
+  text-align: left;
+}
+
 #button {
-  border-color: green;
-  color: green;
+  border: 2px solid rgb(0, 51, 128);
   background-color: rgb(255, 255, 255);
-  border-radius: 15%;
-  align-items: right;
-  align-content: right;
+  border-radius: 25%;
+  padding: 5px;
 }
 
 button:hover {
@@ -29,6 +32,22 @@ button:active {
 }
 
 img.images {
-  padding: 2%;
+  padding: auto;
+  margin: 20px;
   height: 350px;
+  align-items: center;
+}
+
+.header {
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid;
+}
+
+main {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid;
+  text-align: center;
 }
